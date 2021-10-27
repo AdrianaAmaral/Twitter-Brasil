@@ -7,15 +7,15 @@ margin-top: 5%;
     height: 100%;
 }
 
-.list menu{
+.list-menu{
     list-style-type: none;
-}
+   }
 
-.list menu li{
+.list-menu li{
     display: flex;
 }
 
-.list menu span{
+.list-menu span{
     margin-right: 10px;
 }
 
@@ -30,4 +30,14 @@ button{
 
 .icon-twitter{
     padding: 20px 0px 20px 0px;
+}
+
+.card{
+    align-content: center;
+    padding: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    width: auto !important;
 }
