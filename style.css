@@ -1,18 +1,16 @@
 body{
 margin-left: 2%;
-margin-top: 5%;
-}
-
-.div1{
-    height: 100%;
+margin-top: 0%;
+position: relative;
 }
 
 .list-menu{
     list-style-type: none;
-   }
+}
 
 .list-menu li{
     display: flex;
+    
 }
 
 .list-menu span{
@@ -20,7 +18,7 @@ margin-top: 5%;
 }
 
 button{
-    margin-left: 10%;
+    margin-left: 2%;
     border-radius: 100px !important;
 }
 
@@ -32,12 +30,63 @@ button{
     padding: 20px 0px 20px 0px;
 }
 
-.card{
+.card:hover{
+    background-color: hsl(0, 2%, 98%);
     align-content: center;
     padding: auto;
-    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
     text-align: justify;
     width: auto !important;
+    border-radius: 15px;
 }
+
+.img2 {
+    margin-left: 580% !important;
+}
+
+.img3 {
+    border-radius: 100px;
+    margin-top: 5%;
+}
+
+.img4 {
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+.img5 {
+    border-radius: 100px;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+.img6 {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.navbar {
+    border-radius: 15px;
+    margin-top: 2%;
+}  
+
+.card-link{
+    margin-top: 2%;
+    margin-left: 1%
+}
+
+h6 {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.div2{
+    height: 150vh;
+    margin-left: 20%;
+    right: 150vh;
+    width: 55%;
+}
+
+
+
